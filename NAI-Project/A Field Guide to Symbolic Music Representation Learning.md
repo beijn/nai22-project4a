@@ -66,7 +66,7 @@ The folder *Previous Work* includes course work done for *another course*. It re
 The author has not invested into expanding his horizon beyond western music tradition. The music which is targeted in the works picked up by this one is dominantly western. I stress that other kinds of music, coming with ways to systematize than wester #music-theory, must exist in the world and that the fact that it is so marginalized is a consequence of post colonialism. *This work likely takes part in reenforcing this marginalization, by reflecting work targeting specifically "western" music. Especially because not even glimpsing at other cultures. None less because it was uninented.* Science and innovation that narrow their gaze down to a specific culture, for whatever unscientific reason, directly contribute to reinforcing this culture's imperialism, through a multitude of obvious and less obvious ways. This holds especially when paired with economic interests, like a big part of contemporary research in AI music. 
 
 ### Human Work
-This work was done by a human with limited AI assistance. Every presented article was read by me (for details on secondary references, see above). AI was used only (mostly in form of TLDR;s and recommendations of related papers) through several mainstream literature websites like Semantic Scholar and Google Scholar.
+This work was done by a human with limited AI assistance. Every presented article was read by me (for details on secondary references, see above). AI was used only (mostly in form of TLDR;s and recommendations of related papers) through several mainstream literature websites like Semantic Scholar and Google Scholar, and for spelling.
 
 
 
