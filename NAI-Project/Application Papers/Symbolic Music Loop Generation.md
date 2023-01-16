@@ -1,5 +1,5 @@
 # With Neural Discrete Representations
-## 
+## detect and resample from highly corelated bars
 [^@hanSymbolicMusicLoop2022], #ISMIR 2022
 [materials and source](https://github.com/sjhan91/Loop_VQVAE_Official) [ISMIR workshop with poster and video](https://ismir2022program.ismir.net/poster_66.html)
 
@@ -31,17 +31,13 @@
 - Music domain independent: Loop detector operates on correlation matrices, which are computable from any representation. (Here trained on WAV correlations and tested on MIDI) 
 - [[Autoencoder]] part bridges between any domain and latent space.
 
-## Data
-[[TODO]]
-
 ## Metrics
-[[TODO]]
-
-## Other noteworthy points
-- Multiple complementary metrics for music fidelity and diversity seem prospectful.
+- Multiple complementary pairs of metrics for music fidelity and diversity are proposed. Refer to paper for details.
 
 ## Results 
-- [[VQ-VAE]] + [[LSTM]] perform [[TODO]]
+- [[Deep SVDD]] can be used to discern any fuzzy binary class, here loops basd on correlation matrices
+- [[VQ-VAE]] + [[LSTM]] enable sampling from a latent space of repeatable portions of music
+- [[CNN]]-[[VAE]] baseline is better in reconstruction \*
 
 ## Future Work
 - enable multiple voices

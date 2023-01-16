@@ -28,7 +28,7 @@
 - limited [[Meaningful Human Control]] 
 	- through modification of generated notes and conditional regeneration of some rest
 	- choose among different variants
-	- or manipulate probabilistic parameters which leads to the [[Music Evaluation Metrics]] trade-off
+	- or manipulate probabilistic parameters which leads to the [[Evaluation]] trade-off
 
 ## Data
 - #data-augmentation:
@@ -36,7 +36,7 @@
 	- *time dilation*: rhythmic elongation by multipying 
 * **no** transposition as that contains relevant info impacting the difficulty level (more or less black keys)
 
-## [[Music Evaluation Metrics]]
+## [[Evaluation]]
 - [[MuTE]] is proposed
 
 ## Other noteworthy points
@@ -44,7 +44,7 @@
 - Opensourced [[MuTE]] and #data-ugmentation code.
 
 ## Results
-- generation with [[Beam Search]] yields better results but less diversity than [[Sampling]] (→ [[Music Evaluation Metrics]])
+- generation with [[Beam Search]] yields better results but less diversity than [[Sampling]] (→ [[Evaluation]])
 - Automatic rearrangements (from intermediate to easy) are competitive to human ones. 
 - [[MuTE]] correlates (0.56) with overall similarity rating by humans.
 - In an ablation study specific changes in data representation are shown to coincide with changes in specific human metrics.

@@ -38,7 +38,7 @@
 - see [[ComMU Dataset]]
 - #data-augmentation: with transposition and time dilation, yields ×60 data amount
 
-## [[Music Evaluation Metrics]]
+## [[Evaluation]]
 ### Controllability 
 - whether metadata information is faithfully adhered to
 - determinable via simple algorithms, that heuristically extract information like note density, chords, tempo

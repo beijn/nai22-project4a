@@ -12,7 +12,6 @@ Separation of note-on and note-off events
 - note duration is *implicit* in time shift events between note-on and -off
 
 ## On  [[REMI]]
-[[TODO]]
 - both use a *note duration* token instead of *note-off* to improve uppon MIDI
 - REMI has no relative *time shift* token, but a beat-in-bar related absolutish *position* token
 - REMI is *less general* as it needs a beat, chord or tempo tokens. (Though those can be easily inferred with existing methods as shown in [[Compound Word Transformer]] and I would assume a great generalization error on all music, for which this is impossible.)

@@ -24,8 +24,8 @@
 - Simple concepts derived from age-old (western) #music-theory define the *expert description*. They are herewith *empirically proven* to be somewhat meaningful. Though no comparison is given with other frameworks. 
 - Relations of multiple bars are expressed through #attention, but the learned description of the [[VQ-VAE]] is learned only #per-bar, without musical context!
 
-## [[Music Evaluation Metrics]] 
-[[TODO]]
+## [[Evaluation]] 
+#wip
 
 ## Other Noteworthy Points
 - A fully automated training pipeline by combining multiple previous methods for feature extraction.

@@ -32,7 +32,7 @@
 - see [[Structured MIDI Encoding#On Compound Word Representation]]
 - similar in having multiple attention heads per token type
 - authors believe CWT's (relatively) independent generation of multiple tokens at once is a limitation
-- 
+
 ## Data
 - MIDI from [[GiantMIDI-Piano]] (split (90,10,**0**)) 
 - augmented

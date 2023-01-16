@@ -20,8 +20,7 @@
 ## Inductive Biases
 - music = pitch^n per time step
 	- *patterns* have no different notions for quite rest vs sustained note (besides expressivity this impacts polyphony)
-- The presented generative system is capable of explicitely encoding powerfull rules for #compositon 
-	-  
+- The presented generative system is capable of explicitely encoding powerfull rules for #compositon as nested composition' of patterns [^1] 
 
 ## Context
 - enables a [[Formal Grammar]] based, very parametric generative device for [[Evolutionary Algorithms]]
@@ -43,9 +42,13 @@
 - Model proper rests in contrast to sustained notes.
 
 
-## Errors?
-- In (22) the index of the composition is 1-based, everywhere else its 0-based
+## Errors
+- In (22) the index of the composition is 1-based, everywhere else its 0-based?
 
+
+
+
+[^1]: The notion that through patterns, data and function-on-data become the same seems very powerful for generative systems.
 
 
 [^5]: S. Giraudo. Colored operads, series on colored operads, and combinatorial generating systems. Discrete Math., 342(6):1624–1657, 2019.

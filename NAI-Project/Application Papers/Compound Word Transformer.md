@@ -26,13 +26,13 @@
 ## Data
 - Data preparation done fully automatic (ignoring existing [[A Field Guide to Symbolic Music Representation Learning#Datasets|Datasets]]) from audio files: #transcription to #MIDI by [[Onsets and Frames]], for other steps see paper (including a custom [[Chord Recognition]] algorithm).
 
-## [[Music Evaluation Metrics]]
+## [[Evaluation]]
 ### Matchness
 Quantitative: “Matchness” of paino performance to lead sheet
 - #melody: average of per bar [longest common sub-sequence](https://en.wikipedia.org/wiki/Longest_common_subsequence) of notes (by pitch and rough onset time) (in [[REMI]] format)
 - #harmony: #cosine-similarities of [[Chroma Vector]]s of corresponding time slices
 More automated features are used in [[FIGARO]].
-A discussion relating this to [[MuTE]], the metrics in [[FIGARO]] and others is given in [[Music Evaluation Metrics]].
+A discussion relating this to [[MuTE]], the metrics in [[FIGARO]] and others is given in [[Evaluation]].
 
 ### Questionary 
 Qualitative. 
@@ -49,7 +49,7 @@ Qualitative.
 ## Future Work
 *   Apply the idea of #compound-words to other domains of sequential tokens.
 --- 
-*   Choose different evaluation [[Music Evaluation Metrics]], like [[MuTE]].
+*   Choose different evaluation [[Evaluation]], like [[MuTE]].
 *   Make a comparative study implementing recent improvements upon [[Linear Transformer#The Devil in Linear Transformer]] 
 *   To better understand the merits of CP vs REMI and linear vs XL transformers, the combination CP+XL should be evaluated as well.
 *   Maybe the idea of compound-wise attention heads can be used for polyphonic music, to process each voice in parallel.
