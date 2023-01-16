@@ -1,5 +1,7 @@
 \* best before next year. Download and interactively explore and expand from [here](https://github.com/beijn/nai22-project4a). 
 
+Benjamin Eckhardt, Artificial and Natural Intelligence 2022/2023 (LTAT.02.024)
+
 This is a web of knowledge of state of the art (23/01) approaches to computational musicology with a focus on generative and neuro-symbolic systems. It can be navigated by clicking on the cross-links (though most sadly remained placeholders) or #tags or by navigating the folder structure.  Each of the notes under 
 - "Application Papers/" details a full recent paper, mainly following the same structure (best to be discovered, see e.g. [[ComMU]]).
 - "Summaries and Conclusions/" tries to bring together related concepts from a higher point of view (like [[Evaluation]]) and draws overaching (sub-)conclusions (like [[Explainability vs Explain-Ability]]).
