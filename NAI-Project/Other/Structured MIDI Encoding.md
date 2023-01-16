@@ -1,4 +1,4 @@
-## notewise pitch, velocity, duration and *time shift* [^@hadjeresPianoInpaintingApplication2021]
+## Notewise pitch, velocity, duration and *time shift* [^@hadjeresPianoInpaintingApplication2021]
 
 ![[The Piano Inpainting Application - Figure 2.png]]
 
@@ -11,7 +11,7 @@ Separation of note-on and note-off events
 - possibly syntactically *ill-formed* sequences generation
 - note duration is *implicit* in time shift events between note-on and -off
 
-## On  [[REMI]]
+## On [[REMI]]
 - both use a *note duration* token instead of *note-off* to improve uppon MIDI
 - REMI has no relative *time shift* token, but a beat-in-bar related absolutish *position* token
 - REMI is *less general* as it needs a beat, chord or tempo tokens. (Though those can be easily inferred with existing methods as shown in [[Compound Word Transformer]] and I would assume a great generalization error on all music, for which this is impossible.)
@@ -22,7 +22,7 @@ Separation of note-on and note-off events
 - CP achieves higher flexibility by grouping more different kinds of tokens (lile beat/bar and chord as above) by grouping in distinct "families"
 	- family tokens condition the model on the types of tokens to produce to nudge-in the more flexible structure
 ---
-- To adapt [[Inpainting]] as in [[The Piano Inpainting Application]] for CP, don't mixup constraining *ignore* and unconstrained *paint-this-in* tokens.
+- To adapt [[Inpainting]] as in [[The Piano Inpainting Application]] for CP, don't mix up constraining *ignore* and unconstrained *paint-this-in* tokens.
 
 
 [^@hadjeresPianoInpaintingApplication2021]: Hadjeres, Gaëtan, and Léopold Crestel. 2021. “The Piano Inpainting Application.” arXiv. [https://doi.org/10.48550/arXiv.2107.05944](https://doi.org/10.48550/arXiv.2107.05944).

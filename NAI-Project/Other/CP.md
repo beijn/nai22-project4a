@@ -5,7 +5,7 @@
 
 for only known application to date (23/01) see [[Compound Word Transformer]], 
 
-- Event-wise related tokens are vertically grouped and tagged (eg. metric- vs note related).
+- Event-wise related tokens are vertically grouped and tagged (e.g. metric- vs note related).
 - Different attention heads can operate in parallel on the subsequences given by only the tokens of each type. To align those, most tokens in each are skips. Linear projections yield a token for each type per transformed compound representation (→ multiple tokens predicted at once). 
 - First a group tag (“family“) is predicted, from this thereafter the other tokens. 
 - Each type specific attention head can be independently customized (losses, dimensionalities, sampling)

@@ -1,4 +1,4 @@
-## inpainting of specified note(-attribute)s
+## Inpainting of specified note(-attribute)s
 [^@hadjeresPianoInpaintingApplication2021]
 [page](https://ghadjeres.github.io/piano-inpainting-application/) [source](https://github.com/Ghadjeres/piano-inpainting-application)
 
@@ -6,7 +6,7 @@
 
 ## Motivation
 - [[Meaningful Human Control|Artistic control]] over #generative models
-- Classic [[Transformer]] in combination with #MIDI is too slow and suffers from limited #long-term-coherence d
+- Classic [[Transformer]] in combination with #MIDI is too slow and suffers from limited #long-term-coherence 
 
 ## Tasks
 - [[Inpainting]] ([[Conditional Generation]]) of slices, specific notes or *specific note-attributes* based on number; variation
@@ -27,7 +27,7 @@
 ## Context 
 - Control over conditional generation, previous research listed in *Introduction*:
  	*continuation of a priming section [22, 14, 15, 12] : harmonization [10, 14], variation of an input sequences [9, 7], interpolation between two fragments [23], or mapping of a musical gesture to a performance [5].*
-- previous inpainting methods assume simpler, less flexible data representations (like heavily quantized and monophonic)
+- Previous inpainting methods assume simpler, less flexible data representations (like heavily quantized and monophonic)
 ### On [[Compound Word Transformer]] 
 - see [[Structured MIDI Encoding#On Compound Word Representation]]
 - similar in having multiple attention heads per token type
@@ -37,7 +37,7 @@
 - MIDI from [[GiantMIDI-Piano]] (split (90,10,**0**)) 
 - augmented
 	- multiplicative dilation of time, additive shifts in velocity and pitch\*
-	- adaptive quantization as proposed in [^4]. almost imperceptible (see Appendix B)
+	- adaptive quantization as proposed in [^4]. Almost imperceptible (see Appendix B)
 - translated into [[Structured MIDI Encoding]]. 
 
 ## Other noteworthy points 

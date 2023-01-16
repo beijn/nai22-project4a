@@ -1,8 +1,8 @@
-## pitch-time grid corespondence of attributes [^@goverMusicTranslationGenerating2022]
+## Pitch-time grid corespondence of attributes [^@goverMusicTranslationGenerating2022]
 
 ![[Music Translation - Figure 3.png]]
 
-The *MuTE Evaluation Metric* compares generated music with a ground truth. It is the [[F1 score]] over time-step-sequences of all-active-pitches-tokens. To preserve order and timing time-step-wise scores are averaged.
+The *MuTE Evaluation Metric* compares generated music with a ground truth. It is the [[F1 score]] over time-step-sequences of all-active-pitches-tokens. To preserve order and timing, time-step-wise scores are averaged.
 
 ## In [[Music Translation]]
 - Skipped or added measures are identified by automatic alignment of bars (because model based on bars) through comparison of pitch-class piano-rolls. 

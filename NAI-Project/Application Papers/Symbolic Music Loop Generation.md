@@ -16,7 +16,7 @@
 ## Ideas
 1. Detect loops with [[Deep SVDD]][^dsvdd] (unsupervised one class / anomaly classifier) 
 	- A loop is multiple roughly repeated bars.
-	- Distance metric of a bar in a piece is a measure of how loopy it is in the piece. (*loop score*)
+	- The distance metric of a bar in a piece is a measure of how loopy it is in the piece. (*loop score*)
 2. Embedded [[Autoregressive]]ly with a [[VQ-VAE]]
 3. Sample in latent space with an [[Autoregressive]] (on-directional) sequence model ([[LSTM]])
 	- VQ-VAE's quantized vectors are modelled as a sequence of descrete tokens.
@@ -25,7 +25,7 @@
 
 ## Inductive Biases
 - Flatness: Only repeating full bars relevant, non-repeating aspects of bars interpreted as noise and fractional or multiple bared loops unrecognized. Bar code flat. 
-- [[VQ-VAE|Latent Quantization]]: enables sampling of code vectors from autoregressive sequence models, but reduces reconstruction fidelity (no intrinsic benefits of quantization shown, like eg. out of domain generalization).
+- [[VQ-VAE|Latent Quantization]]: enables sampling of code vectors from autoregressive sequence models, but reduces reconstruction fidelity (no intrinsic benefits of quantization shown, like e.g. out of domain generalization).
 
 ## Context
 - Music domain independent: Loop detector operates on correlation matrices, which are computable from any representation. (Here trained on WAV correlations and tested on MIDI) 
@@ -40,10 +40,10 @@
 - [[CNN]]-[[VAE]] baseline is better in reconstruction \*
 
 ## Future Work
-- enable multiple voices
+- to enable multiple voices
 --- 
 - compare with a model, able to sample in *continous* latents of a CNN-VAE (see \*)
-- test out-of-distribution generalization benefits from quantized latents  (see \*)
+- test out-of-distribution generalization benefits from quantized latents (see \*)
 
 ## Remarks
 \* [[VQ-VAE]] is apparantly only used to enable latent sampling by a token based model like [[LSTM]] (or probably in future work [[Transformer]]s). No analysis of the benefits of a VQ-VAE are given, like generalization or efficient learning.

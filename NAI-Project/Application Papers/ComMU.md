@@ -19,7 +19,7 @@
 
 ## Inductive Biases
 - music = [[Structure as Repetition|repeated]] overlay of unrelated, short, monophonic sequences. Relation only through common metadata in prompt. 
-- the usual flatness concern in latent codes applies (see [[Hierarchical Latents]])
+- The usual flatness concern in latent codes applies (see [[Hierarchical Latents]])
 
 ## Context
 - see also [[ComMU Dataset]]
@@ -54,7 +54,7 @@
 - extended *chord symbols* and *track roles* are powerfull #conditioning, as shown by the #ablation-study
 
 ## Future Work
-- develop specific architectures for the structure of music rather than text
+- to develop specific architectures for the structure of music rather than text
 
 
 [^@hyunComMUDatasetCombinatorial2022]: Hyun, Lee, Taehyun Kim, Hyolim Kang, Minjoo Ki, Hyeonchan Hwang, Kwanho Park, Sharang Han, and Seon Joo Kim. 2022. “ComMU: Dataset for Combinatorial Music Generation.” arXiv. [https://doi.org/10.48550/arXiv.2211.09385](https://doi.org/10.48550/arXiv.2211.09385).

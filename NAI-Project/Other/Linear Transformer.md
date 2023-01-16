@@ -1,8 +1,8 @@
-## attention in linear time
+## Attention in linear time
 
-For transformers and attention please refer to other sources like https://jalammar.github.io/illustrated-transformer/, or your favorite lecture.
+For transformers and attention, please refer to other sources like https://jalammar.github.io/illustrated-transformer/, or your favorite lecture.
 This note is a quick reference to recent *linear* attention transformers and an even more recent improvement.
-A slightly improved transformer is also presented in  [[The Piano Inpainting Application]] (Section 3.2.1).
+A slightly improved transformer is also presented in [[The Piano Inpainting Application]] (Section 3.2.1).
 
 
 
@@ -12,10 +12,10 @@ A slightly improved transformer is also presented in  [[The Piano Inpainting App
 
 [^@katharopoulosTransformersAreRNNs2020], #MLR 2020
 Also called *kernel based attention*.
-- Attention in linear space and time, by mathematically generalizing vanilla softmax attention, and re-specifing it with few assumption.
-- As an #autoregressive sequence model the memory need is constant and the equivalence to specific RNNs is shown.
+- Attention in linear space and time, by mathematically generalizing vanilla softmax attention, and re-specifing it with few assumptions.
+- As an #autoregressive sequence model, the memory need is constant and the equivalence to specific RNNs is shown.
 
-- linear attention has been developed concurrently in [^@zhuoranEfficientAttentionAttention2021] (but without the RNN parallelism)
+- Linear attention has been developed concurrently in [^@zhuoranEfficientAttentionAttention2021] (but without the RNN parallelism)
 - Several other improvements on transformers are contextualized in section 2.1 of [^@katharopoulosTransformersAreRNNs2020]
 - Related work also includes mentions of previously found parallelity between [[Transformer]]s and [[CNN]]s
 
@@ -23,7 +23,7 @@ Also called *kernel based attention*.
 [@qinDevilLinearTransformer2022], #EMNLP 2022
 [source and (pictographic) explanation](https://github.com/opennlplab/transnormer)
 
-- Other work has shown that [[Linear Transformer]]s' few assumptions for linear attention are too much - predictive performance and generalizability suffer while higher compute efficiency is increased.
+- Other work has shown that [[Linear Transformer]]'s few assumptions for linear attention are too much - predictive performance and generalizability suffer, while higher compute efficiency is increased.
 - This very recent and apparently uncited study presents
 - improvements both in (predictive) performance bottlenecks of linear transformers and achieves both superior (compute) efficiency and performance on huge sequences is
 

@@ -1,5 +1,5 @@
 # Generating Symbolic Music with Fine-Grained Artistic Control 
-## Bar-wise merged latent and natural codes to sequence   [^@rutteFIGAROGeneratingSymbolic2022]
+## Bar-wise merged latent and natural codes to sequence [^@rutteFIGAROGeneratingSymbolic2022]
 
 | Figure 1                   | Figure 2 |
 | -------------------------- | -------- |
@@ -14,8 +14,8 @@
 ## Ideas
 ### Descriptions
 * Two kinds of low dimensional bar-wise automatically generated codes (“descriptions“) for a sequence are generated and fed together into a [[Autoregressive]] #sequence-to-sequence [[Transformer]] with the objective to reconstruct the original sequence from this description.
-	- *expert description*: Engineered and easy to understand rough features extracted with different heuristic methods (see Appendix B).
-	- *learned description*: The latent code of a [[VQ-VAE]]. After separate fully unsupervised training, it is frozen and its encoder part is used in the same manner as the engineered features to yield an input to the description-to-sequence transformer.
+	- *Expert description*: Engineered and easy to understand rough features extracted with different heuristic methods (see Appendix B).
+	- *Learned description*: The latent code of a [[VQ-VAE]]. After separate fully unsupervised training, it is frozen and its encoder part is used in the same manner as the engineered features to yield an input to the description-to-sequence transformer.
 	The human understandable part of the description can 
 ### REMI+ Input Representation 
 - extends [[REMI]] from [[Pop Music Transformer]] to be more robust and include more information (like varying time signatures and multiple instruments)
@@ -34,10 +34,10 @@
 ## Results
 * Method to excert sequence-level (global *and* bar-wise) [[Meaningful Human Control]] over musical content. See also [[music impainting with stable diffusion]]
 * State-of-the-art #symbolic #music #generation as of 22/03
-* #ablation-study for expert description components: removing each part of the expert description significantly lowers the model’s performance, even regarding metrics that where assumed to be disentangled.  
+* #ablation-study for expert description components: removing each part of the expert description significantly lowers the model’s performance, even regarding metrics that were assumed to be disentangled.  
 
 ## Future Work
-* Improve the expert description
+* to Improve the expert description
 	* since every existing part is shown to be highly valuable, distilling more advanced and detailed (music theoretical) insights into it could yield huge improvements, both to prediction quality *and* meaningful human control.
 
 

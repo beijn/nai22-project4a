@@ -1,4 +1,4 @@
-## faithfully fill-in missing parts of a sequence [^8]
+## Faithfully fill-in missing parts of a sequence [^8]
 
 ![[The Piano Inpainting Application - Figure 1.png]]
 
@@ -14,7 +14,7 @@
 see [^8]
 
 ## In [[The Piano Inpainting Application]]
-- For each piece of information, breaking down to each notes attribute, a *fill-me-in* token has to be specified upfront. 
+- For each piece of information, breaking down to each note's attribute, a *fill-me-in* token has to be specified upfront. 
 
 
 [^8]: G. Hadjeres and F. Nielsen. Anticipation-rnn: Enforcing unary constraints in sequence generation, with application to interactive music generation. Neural Computing and Applications, 32(4):995–1005, 2020.
